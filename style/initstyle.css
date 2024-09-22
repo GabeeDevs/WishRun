@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.upcontent {
+    position: relative;
+    z-index: 1; /* Coloca o conteúdo acima do vídeo */
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    width: auto;
+    margin-top: 300px;
+    height: 30vh;
+    font-size: 30px;
+    font-family: 'Poppins';font-size: 30px;
+    font-weight: bold;
+}
+#texto_descritivo {
+    height: 10px;
+    font-family: 'Poppins';
+}
+
+#wishruncentro{
+   font-family: 'Poppins';
+   font-weight: bold;
+   font-size: 60px; 
+}
+
+.fullscreen-video-container {
+    position: relative;
+    height: 100vh; /* Altura total da viewport */
+    width: 99,5vw; /* Largura total da viewport */
+    overflow: hidden; /* Oculta qualquer parte do vídeo que exceda o contêiner */
+}
+
+#bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* Coloca o vídeo atrás do conteúdo */
+    transform: translate(-50%, -50%); /* Centraliza o vídeo */
+    object-fit: cover; /* Cobre o contêiner mantendo a proporção */
+}
+
+.content {
+    position: relative;
+    z-index: 1; /* Coloca o conteúdo acima do vídeo */
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Espaçamento interno */
+}
+
+
+
+/* Estilizando o Footer */
+footer {
+    background-color: #333;  /* Cor de fundo escura */
+    color: white;            /* Texto branco */
+    text-align: center;       /* Alinhar texto ao centro */
+    padding: 50px 0;         /* Espaçamento vertical maior */
+    width: 100%;             /* Ocupa toda a largura da página */
+    position: relative;      /* Permite controle sobre o posicionamento */
+    a {
+        text-decoration: none; /* Remove o sublinhado */
+        color: rgb(155, 155, 175); /* Define a cor do link */
+    }
+
+    a:hover {
+        text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+    }
+}
+
+.footer-content {
+    max-width: 1200px;       /* Define uma largura máxima para o conteúdo */
+    margin: 0 auto;          /* Centraliza o conteúdo */
+}
+
+.social-links {
+    margin-top: 10px;        /* Espaçamento entre conteúdo e rodapé inferior */
+    padding-top: 1%;
+    left: 100px;
+    border-top: 1px solid #777; /* Linha fina no topo do rodapé inferior */
+}
+
+h3 {
+    font-size: 24px;         /* Tamanho do título */
+    margin-bottom: 10px;     /* Espaçamento entre título e parágrafo */
+}
+
+p {
+    font-size: 16px;         /* Tamanho padrão do parágrafo */
+}
+
+/* Tornar responsivo */
+@media (max-width: 768px) {
+    footer {
+        padding: 30px 0;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+
+
+       /* Estilos para WebKit */
+       ::-webkit-scrollbar {
+        width: 10px; /* Largura da barra de rolagem */
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1; /* Cor do fundo */
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #888; /* Cor do "thumb" */
+        border-radius: 5px; /* Bordas arredondadas */
+        transition: background-color 0.3s ease; /* Transição suave */
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555; /* Cor ao passar o mouse */
+    }
+
+    /* Estilos para Firefox */
+    * {
+        scrollbar-width: thin; /* "auto" ou "thin" */
+        scrollbar-color: #888 #646464; /* Cor do "thumb" e do fundo */
+    }
+
+
+    .nav {
+        color: white;
+        font-family: 'Poppins';
+      }
+    
+      .nav-item {
+        margin-right: 15px; /* Adiciona espaço entre os itens */
+        margin-left: 15px;
+        margin-top: 20px;
+        display: inline;
+      }
+    
+      .navbar-brand {
+        color: white !important; /* Garante que o texto do link também fique branco */
+        
+      }
+
+#logosite{
+    flex: auto;
+    margin-right: 198vh;
+    width: 100px;
+    height: 100px;
+}
+
+#navBE {
+    margin-top: -70vh;
+}
